@@ -123,8 +123,8 @@ inquirer
             // console.log(`${item} :                     ₹ ${100 + (10 * n)}/-`)
             console.log("                           __________________________________")
             console.log("Total :                                    ₹", total + "/-");
-            console.log("GST 5 % :                                  ₹", total * 0.5 + "/-");
-            let payable = total + (total * 0.5) // applying 5% GST
+            console.log("GST 5 % :                                  ₹", total * 0.05 + "/-");
+            let payable = total + (total * 0.05) // applying 5% GST
             console.log(`Ammount to pay :                           ₹ ${payable} /-`)
               
               
